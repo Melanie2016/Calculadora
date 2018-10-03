@@ -13,5 +13,7 @@ namespace CalculadoraPrecaria.Models
         public int segundoNumero { get; set; }
 
         public int resultado { get; set; }
+
+        public int error { get; set; }
     }
 }

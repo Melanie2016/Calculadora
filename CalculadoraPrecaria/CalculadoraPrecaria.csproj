@@ -195,8 +195,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Calculadora\Calcular.cshtml" />
+    <Content Include="Views\Calculadora\Sumar.cshtml" />
     <Content Include="Views\Calculadora\Resultado.cshtml" />
+    <Content Include="Views\Calculadora\Operaciones.cshtml" />
+    <Content Include="Views\Calculadora\Restar.cshtml" />
+    <Content Include="Views\Calculadora\Multiplicar.cshtml" />
+    <Content Include="Views\Calculadora\Dividir.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

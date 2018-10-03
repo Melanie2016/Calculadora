@@ -1,6 +1,8 @@
 ﻿
 @{
     ViewBag.Title = "Resultado";
+
+    string msgError = TempData["Error1"] as string;
 }
 
 @using CalculadoraPrecaria.Models
@@ -14,8 +16,18 @@
         <h2>Resultado</h2>
         <div class="text-center">
             <div class="form-group">
+                @msgError <br />
+
                 <label>Resultado: @Html.TextBoxFor(c => c.resultado, null, new { @class = "form-control" }) </label>
             </div>
+
+           
+           
+
+           
+            <a href="~/Calculadora/Operaciones"><input type="button" class="btn btn-lg" style="background-color:lightsalmon; color:black" value="Elegir otra operación" /></a>
+
+
         </div>
 
     </body>
